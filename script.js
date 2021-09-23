@@ -21,16 +21,16 @@ $(document).ready(function() {
 	  	$(".stream3").addClass('highlight_stream');
 	});
       // --------ex---------/
-	$("p").css("color", "blue").slideUp(2000).slideDown(2000);  // chance color, slide up slide down
-	$("a").attr("href", "http://www.exemple.com"); // add extention link to ancor.
+	// $("p").css("color", "blue").slideUp(2000).slideDown(2000);  // chance color, slide up slide down
+	// $("a").attr("href", "http://www.exemple.com"); // add extention link to ancor.
 
-	//---------------ex with botton--------/
-	$("button").mouseenter(function() {
-		$("button").removeClass("make-red").addClass("make-border");
-	});
-	$("button").mouseleave(function() {
-		$("button").removeClass("make-border").addClass("make-red");
-	})
+	// //---------------ex with botton--------/
+	// $("button").mouseenter(function() {
+	// 	$("button").removeClass("make-red").addClass("make-border");
+	// });
+	// $("button").mouseleave(function() {
+	// 	$("button").removeClass("make-border").addClass("make-red");
+	// })
 	
 
 
