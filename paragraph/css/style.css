@@ -1,5 +1,4 @@
-#container
-{
+#container {
 	display: flex;		/* makes container a flexbox*/
 	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
 	box-sizing:border-box;
@@ -7,7 +6,7 @@
 	margin-left:auto;
 	max-width:1050px;	
 }
-.card{
+.card {
 	flex:1; /* */
 	display: flex;	/* make the contents controllable by flexbox*/
 	flex-flow:column;	/* */
@@ -15,4 +14,7 @@
 	margin: 10px;
 	padding: 20px;
 	background-color: #fff;
+}
+.p {
+	color: blue;
 }
